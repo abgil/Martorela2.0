@@ -4,7 +4,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+	font-family: Tempus Sans ITC, Papyrus , Kristen ITC, Bradley Hand ITC;
 }
 
 .st-container > input,
@@ -182,7 +182,7 @@
 
 [data-icon]:after {
     content: attr(data-icon);
-    font-family: 'RaphaelIcons';
+    font-family: Tempus Sans ITC, Papyrus , Kristen ITC, Bradley Hand ITC;
     color: #fff;
 	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
 	position: absolute;
@@ -476,7 +476,7 @@
 .rg-caption p{
 	font-size:11px;
 	letter-spacing:2px;
-	font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+	font-family: Tempus Sans ITC, Papyrus , Kristen ITC, Bradley Hand ITC;
 	line-height:16px;
 	padding:0 15px;
 	text-transform:uppercase;
