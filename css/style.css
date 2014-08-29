@@ -211,7 +211,7 @@
 	left: 10%;
 	text-align: center;
 	line-height: 50px;
-	margin: -70px 0 0 0;
+	margin: -100px 0 0 0;
 	padding: 0;
 	top: 50%;
 	-webkit-backface-visibility: hidden;
@@ -291,10 +291,8 @@
 	color: #8b8b8b;
 	z-index: 2;
 	padding: 0;
-	width: 50%;
-	left: 25%;
 	top: 50%;
-	margin: 10px 0 0 0;
+	margin: 0px 100px 100px 100px;
 	-webkit-backface-visibility: hidden;
 }
 #st-control-1:checked ~ .st-scroll #st-panel-1 p,
