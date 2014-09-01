@@ -46,17 +46,17 @@ $(function() {
 
 	return this;
 	};
-
-	// gallery container
-	var $rgGallery			= $('#rg-gallery'),
+	for (var i = 0; i<3; i++) {
+	
+	var Gallery				= (function() {
+		// gallery container
+		var $rgGallery			= $('#rg-gallery'+i),
 	// carousel container
 	$esCarousel			= $rgGallery.find('div.es-carousel-wrapper'),
 	// the carousel items
 	$items				= $esCarousel.find('ul > li'),
 	// total number of items
 	itemsCount			= $items.length;
-	
-	Gallery				= (function() {
 			// index of the current item
 		var current			= 0, 
 			// mode : carousel || fullview
@@ -231,30 +231,14 @@ $(function() {
 					anim	= false;
 					
 				}).attr( 'src', largesrc );
-				
-			},
-			addItems		= function( $new ) {
-			
-				$esCarousel.find('ul').append($new);
-				$items 		= $items.add( $($new) );
-				itemsCount	= $items.length; 
-				$esCarousel.elastislide( 'add', $new );
-			
 			};
-		
+
 		return { 
-			init 		: init,
-			addItems	: addItems
+			init : init
 		};
 	
 	})();
 
 	Gallery.init();
-	
-	/*
-	Example to add more items to the gallery:
-	
-	var $new  = $('<li><a href="#"><img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="From off a hill whose concave womb reworded" /></a></li>');
-	Gallery.addItems( $new );
-	*/
+	}
 });
