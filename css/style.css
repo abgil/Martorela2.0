@@ -484,12 +484,19 @@
 	
 }
 .rg-caption p.description{
-	
+	margin: -40px 0px 0px 0px;
+	left: 10%;
+	position: relative;
+	text-align: left;
 }
 .rg-caption p.ref{
-	padding-top: 35px;
 	color: blue;
 	font-weight: bold;
+	margin: 10px 0px 0px 0px;
+	left: 10%;
+	right: 10%;
+	position: relative;
+	text-align: left;
 }
 .rg-view{
 	height:30px;
