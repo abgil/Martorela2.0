@@ -471,7 +471,6 @@
 	text-align:center;
 	margin-top:15px;
 	position:relative;
-	height:90px;
 }
 .rg-caption p{
 	font-size:11px;
@@ -481,13 +480,17 @@
 	padding:0 15px;
 }
 .rg-caption h4.title{
-	
+	position: relative;
+	text-align: center;
+	top: 0px;
 }
 .rg-caption p.description{
-	margin: -40px 0px 0px 0px;
 	left: 10%;
 	position: relative;
 	text-align: left;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 20%;
 }
 .rg-caption p.ref{
 	color: blue;
