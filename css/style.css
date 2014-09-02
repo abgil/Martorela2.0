@@ -436,6 +436,7 @@
 .rg-gallery{
 	position:relative;
 	height: 900px;
+	margin-right: 10px;
 }
 .rg-image img{
 	max-height:100%;
