@@ -507,8 +507,8 @@
 	width:16px;
 	height:16px;
 	margin-right:3px;
-	background:#464646 url(../images/views.png) no-repeat top left;
-	border:3px solid #464646;
+	background:#e23a6e url(../images/views.png) no-repeat top left;
+	border:3px solid #e23a6e;
 	opacity:0.8;
 }
 .rg-view a:hover{
@@ -518,8 +518,8 @@
 	background-position:0px 0px;
 }
 .rg-view a.rg-view-selected{
-	background-color:#6f6f6f;
-	border-color:#6f6f6f;
+	background-color:#821134;
+	border-color:#821134;
 }
 .rg-view a.rg-view-thumbs{
 	background-position:0px -16px;
