@@ -435,7 +435,7 @@
 }
 .rg-gallery{
 	position:relative;
-	height: 850px;
+	height: 900px;
 }
 .rg-image img{
 	max-height:100%;
@@ -471,7 +471,7 @@
 	text-align:center;
 	margin-top:15px;
 	position:relative;
-	height:50px;
+	height:90px;
 }
 .rg-caption p{
 	font-size:11px;
@@ -479,7 +479,17 @@
 	font-family: Tempus Sans ITC, Papyrus , Kristen ITC, Bradley Hand ITC;
 	line-height:16px;
 	padding:0 15px;
-	text-transform:uppercase;
+}
+.rg-caption h4.title{
+	
+}
+.rg-caption p.description{
+	
+}
+.rg-caption p.ref{
+	padding-top: 35px;
+	color: blue;
+	font-weight: bold;
 }
 .rg-view{
 	height:30px;

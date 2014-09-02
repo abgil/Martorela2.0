@@ -209,17 +209,23 @@ $(function() {
 				
 				$items.removeClass('selected');
 				$item.addClass('selected');
-					 
+
 				var $thumb		= $item.find('img'),
 					largesrc	= $thumb.data('large'),
-					title		= $thumb.data('description');
-				
+					title		= $thumb.data('title'),
+					description	= $thumb.data('description'),
+					ref			= $thumb.data('ref');
+
 				$('<img/>').load( function() {
 					
 					$rgGallery.find('div.rg-image').empty().append('<img src="' + largesrc + '"/>');
 					
 					if( title )
-						$rgGallery.find('div.rg-caption').show().children('p').empty().text( title );
+						$rgGallery.find('div.rg-caption').show().children('h4.title').empty().text( title );
+					if( description )
+						$rgGallery.find('div.rg-caption').show().children('p.description').empty().text( description );
+					if( ref )
+						$rgGallery.find('div.rg-caption').show().children('p.ref').empty().text( ref );
 					
 					$loader.hide();
 					
