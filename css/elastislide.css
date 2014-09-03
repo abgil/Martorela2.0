@@ -18,6 +18,7 @@
 }
 .es-carousel ul{
 	display:none;
+	margin-top: 0px;
 }
 .es-carousel ul li{
 	height:100%;
