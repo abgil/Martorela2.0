@@ -43,7 +43,6 @@ a{
 @media screen and (max-width: 520px) {
 	.codrops-top { display: none; }
 }
-@import url('reset.css');
 
 /* General Codrops Demo Style */
 body{
