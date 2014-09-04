@@ -214,19 +214,33 @@ $(function() {
 					largesrc	= $thumb.data('large'),
 					title		= $thumb.data('title'),
 					description	= $thumb.data('description'),
-					ref			= $thumb.data('ref');
+					ref			= $thumb.data('ref'),
+					note			= $thumb.data('note');
 
 				$('<img/>').load( function() {
 					
 					$rgGallery.find('div.rg-image').empty().append('<img src="' + largesrc + '"/>');
 					
-					if( title )
+					if(title) {
 						$rgGallery.find('div.rg-caption').show().children('h4.title').empty().text( title );
-					if( description )
+					} else {
+						$rgGallery.find('div.rg-caption').show().children('h4.title').empty();
+					}
+					if(description) {
 						$rgGallery.find('div.rg-caption').show().children('p.description').empty().text( description );
-					if( ref )
+					} else {
+						$rgGallery.find('div.rg-caption').show().children('p.description').empty();
+					}
+					if(ref) {
 						$rgGallery.find('div.rg-caption').show().children('p.ref').empty().text( ref );
-					
+					} else {
+						$rgGallery.find('div.rg-caption').show().children('p.ref').empty();
+					}
+					if(note) {
+						$rgGallery.find('div.rg-caption').show().children('p.note').empty().text( note );
+					} else {
+						$rgGallery.find('div.rg-caption').show().children('p.note').empty();
+					}
 					$loader.hide();
 					
 					if( mode === 'carousel' ) {
