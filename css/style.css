@@ -623,6 +623,7 @@ opacity: 1;
 	margin-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 20%;
+	color: black;
 }
 .rg-caption p.ref {
 	color: blue;
@@ -634,12 +635,12 @@ opacity: 1;
 	text-align: left;
 }
 .rg-caption p.note {
-	font-weight: bold;
 	margin: 10px 0px 0px 0px;
 	left: 10%;
 	right: 10%;
 	position: relative;
 	text-align: left;
+	color: black;
 }
 .rg-view {
 	height: 30px;
