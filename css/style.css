@@ -743,6 +743,7 @@ opacity: 1;
 	-ms-transform: rotate(-45deg);
 }
 
-#facelogo {width="152px";
-	height="152";
+#facelogo {
+	width: 152px;
+	height: 152px;
 }
