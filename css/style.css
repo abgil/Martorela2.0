@@ -1,3 +1,8 @@
+html {
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
 body {
 	font-family: Tempus Sans ITC, Papyrus, Kristen ITC, Bradley Hand ITC;
 	background: #ddd;
@@ -244,48 +249,42 @@ h1 span {
 	overflow: hidden;
 }
 
-#st-control-1:checked ~
-.st-scroll {
+#st-control-1:checked ~ .st-scroll {
 	-webkit-transform: translateY(0%);
 	-moz-transform: translateY(0%);
 	-o-transform: translateY(0%);
 	-ms-transform: translateY(0%);
 	transform: translateY(0%);
 }
-#st-control-2:checked ~
-.st-scroll {
+#st-control-2:checked ~ .st-scroll {
 	-webkit-transform: translateY(-100%);
 	-moz-transform: translateY(-100%);
 	-o-transform: translateY(-100%);
 	-ms-transform: translateY(-100%);
 	transform: translateY(-100%);
 }
-#st-control-3:checked ~
-.st-scroll {
+#st-control-3:checked ~ .st-scroll {
 	-webkit-transform: translateY(-200%);
 	-moz-transform: translateY(-200%);
 	-o-transform: translateY(-200%);
 	-ms-transform: translateY(-200%);
 	transform: translateY(-200%);
 }
-#st-control-4:checked ~
-.st-scroll {
+#st-control-4:checked ~ .st-scroll {
 	-webkit-transform: translateY(-300%);
 	-moz-transform: translateY(-300%);
 	-o-transform: translateY(-300%);
 	-ms-transform: translateY(-300%);
 	transform: translateY(-300%);
 }
-#st-control-5:checked ~
-.st-scroll {
+#st-control-5:checked ~ .st-scroll {
 	-webkit-transform: translateY(-400%);
 	-moz-transform: translateY(-400%);
 	-o-transform: translateY(-400%);
 	-ms-transform: translateY(-400%);
 	transform: translateY(-400%);
 }
-#st-control-6:checked ~
-.st-scroll {
+#st-control-6:checked ~ .st-scroll {
 	-webkit-transform: translateY(-500%);
 	-moz-transform: translateY(-500%);
 	-o-transform: translateY(-500%);
@@ -747,3 +746,4 @@ opacity: 1;
 	width: 152px;
 	height: 152px;
 }
+
