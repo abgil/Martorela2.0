@@ -694,7 +694,9 @@ opacity: 1;
 	overflow-y: auto;
 }
 
-#roundandshadow {
+#roundandshadow,
+#roundandshadow1,
+#roundandshadow2 {
 	background: #fa96b5;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -715,7 +717,8 @@ opacity: 1;
 #news {
 	height: 1500px;
 }
-#news-text {
+#news-text0,
+#news-text1 {
 	color: black;
 	position: relative;
 	left: 0%;
@@ -724,7 +727,8 @@ opacity: 1;
 	font-size: 0.7em;
 }
 
-#imag {
+#imag0,
+#imag1 {
 	position: relative;
 }
 .contact-wrap {
