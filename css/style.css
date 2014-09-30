@@ -628,15 +628,13 @@ opacity: 1;
 	color: blue;
 	font-weight: bold;
 	margin: 10px 0px 0px 0px;
-	left: 10%;
-	right: 10%;
+	margin-left: 10%;
 	position: relative;
 	text-align: left;
 }
 .rg-caption p.note {
 	margin: 10px 0px 0px 0px;
-	left: 10%;
-	right: 10%;
+	margin-left: 10%;
 	position: relative;
 	text-align: left;
 	color: black;
@@ -745,6 +743,21 @@ opacity: 1;
 	-o-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 }
+#logoName{
+	margin: -100px 0px 0px 0px;
+	position: relative;
+}
+#logo4 {
+	margin: 90px 0px 0px 0px;
+	transform: rotate(-45deg);
+	position: relative;
+	margin-left: 90px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+}
+
 
 #facelogo {
 	width: 152px;
