@@ -117,8 +117,10 @@ h1 span {
 	float: right;
 }
 .content {
-	margin: 130px 15px 30px 25px;
+	position: absolute;
+	top: 25%;
 	height: 100%;
+	width: 100%;
 	overflow-y: auto;
 }
 @media screen and (max-width: 640px) {
@@ -565,8 +567,9 @@ opacity: 1;
 }
 .rg-gallery {
 	position: relative;
-	height: 950px;
+	height: 1000px;
 	margin-right: 10px;
+	margin-left: 10px;
 }
 .rg-image img {
 	max-height: 100%;
@@ -729,9 +732,6 @@ opacity: 1;
 #imag1 {
 	position: relative;
 }
-.contact-wrap {
-	margin-top: 150px;
-}
 
 #logo1 {
 	margin: 90px 0px 0px 0px;
@@ -762,5 +762,11 @@ opacity: 1;
 #facelogo {
 	width: 152px;
 	height: 152px;
+}
+.contact-page {
+	position: absolute;
+	top: 25%;
+	height: 100%;
+	width: 100%;
 }
 
