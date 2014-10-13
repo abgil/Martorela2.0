@@ -25,6 +25,7 @@
 		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 		<script type="text/javascript" src="js/jquery.elastislide.js"></script>
 		<script type="text/javascript" src="js/gallery.js"></script>
+		<script type="text/javascript" src="js/jquery.eislideshow.js"></script>
 
 		<noscript>
 			<style>
@@ -33,6 +34,16 @@
 				}
 			</style>
 		</noscript>
+		<script type="text/javascript">
+            $(function() {
+                $('#ei-slider').eislideshow({
+					animation			: 'sides',
+					autoplay			: true,
+					slideshow_interval	: 3000,
+					titlesFactor		: 0
+                });
+            });
+        </script>
 		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
 			<div class="rg-image-wrapper">
 				{{if itemsCount > 1}}
@@ -71,17 +82,56 @@
 				<a href="#st-panel-6">Contacto</a>
 				<div class="st-scroll">
 					<section class="st-panel" id="st-panel-1">
-						<div class="text1">
-							<p>
-							<br>Complementos Artesanales
-							<img id="logoName" src="images/LogoAndName.png" alt="Martorela"/>
-							<br>Los diseños de Martorela, están realizados de forma totalmente artesanal y con materiales de primera calidad.
-							<br>Todos pueden ser personalizados a vuestro gusto, con diferentes combinaciones de colores y en distintos tamaños, también se pueden confeccionar montados sobre diademas, coleteros o pasadores…¡Tú eliges!
-							<br><br>Cualquier consulta sobre nuestros productos, o petición, solo tienes que ponerte en contacto con nosotros, estaremos encantadas de ayudarte.
-							<br><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;La Diseñadora
+						<div class="container">
+							<div class="headHome">
+								<img id="logoName" src="images/LogoAndName.png" alt="Martorela"/>
+								<div class="text1">
+									<br>Los diseños de Martorela, están realizados de forma totalmente artesanal y con materiales de primera calidad.
+									<br>Todos pueden ser personalizados a vuestro gusto, con diferentes combinaciones de colores y en distintos tamaños, también se pueden confeccionar montados sobre diademas, coleteros o pasadores…¡Tú eliges!
+									<br><br>Cualquier consulta sobre nuestros productos, o petición, solo tienes que ponerte en contacto con nosotros, estaremos encantadas de ayudarte.
+									<br><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;La Diseñadora
+								</div>
+							</div>
+							<div class="wrapper">
+								<div id="ei-slider" class="ei-slider">
+									<ul class="ei-slider-large">
+										<li>
+											<img src="images/home/14_288.png" alt="14_288"/>
+											<div class="ei-title">
+												<h2>Complementos</h2>
+												<h3>Artesanales</h3>
+											</div>
+										</li>
+										<li>
+											<img src="images/home/14_291.png" alt="14_291" />
+											<div class="ei-title">
+												<h2>Creativos</h2>
+											</div>
+										</li>
+										<li>
+											<img src="images/home/14_296.png" alt="14_296" />
+											<div class="ei-title">
+												<h2>Elegantes</h2>
+											</div>
+										</li>
+										<li>
+											<img src="images/home/14_299.png" alt="14_299"/>
+											<div class="ei-title">
+												<h2>Alegres</h2>
+											</div>
+										</li>
+										<li>
+											<img src="images/home/14_301.png" alt="14_301"/>
+											<div class="ei-title">
+												<h2>Ingeniosos</h2>
+											</div>
+										</li>
+									</ul><!-- ei-slider-large -->
+								</div><!-- ei-slider -->
+							</div><!-- wrapper -->
 						</div>
 					</section>
-					
+
 					<section class="st-panel st-color" id="st-panel-2">
 						<div class="content">
 							<div id="rg-gallery0" class="rg-gallery">
@@ -114,7 +164,7 @@
 							</div><!-- rg-gallery -->
 						</div><!-- content -->
 					</section>
-					
+
 					<section class="st-panel" id="st-panel-3">
 						<div class="content">
 							<div id="rg-gallery1" class="rg-gallery">
@@ -151,7 +201,7 @@
 							</div><!-- rg-gallery -->
 						</div><!-- content -->
 					</section>
-					
+
 					<section class="st-panel st-color" id="st-panel-4">
 						<div class="content">
 							<div id="rg-gallery2" class="rg-gallery">
@@ -186,14 +236,14 @@
 							</div><!-- rg-gallery -->
 						</div><!-- content -->
 					</section>
-					
+
 					<section class="st-panel" id="st-panel-5">
 							<div id="maincontent">
 								<div id="news">
 									<div id="roundandshadow">
 										<h4>Martorela en Facebook</h4>
 										<div id="imag0">
-											<a id="#facelogo" href="https://www.facebook.com/pages/Martorela/252799214826762" ><img src="images/Facebook-logo.png" alt="Facebook-logo"></a>
+											<a id="#facelogo" href="https://www.facebook.com/pages/Martorela/252799214826762" ><img src="images/news/Facebook-logo.png" alt="Facebook-logo"></a>
 										 </div>
 									</div><!--END of #roundandshadow--> 
 									<div id="roundandshadow1">
@@ -221,10 +271,21 @@
 								</div>
 							</div><!--END of maincontent-->
 					</section>
-					
+
 					<section class="st-panel st-color" id="st-panel-6">
+					<div class="header">
+						<a href="http://martorela.es">
+							<strong>&laquo; Creado por: </strong>Martorela
+						</a>
+						<span class="right">
+							<a href="http://barbragolba.deviantart.com/gallery/#/d40lc1t" target="_blank">
+								<strong>Diseñado</strong>
+							</a>
+						</span>
+						<div class="clr"></div>
+					</div>
 						<div class="contact-page"> 
-							<div class="container">							
+							<div class="container">
 								<div class="row contact-wrap">
 								<div class="status alert alert-success" style="display: none"></div>
 									<h3>Información de contacto</h3>
