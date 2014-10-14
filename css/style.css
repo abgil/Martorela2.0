@@ -573,7 +573,7 @@ opacity: 1;
 }
 .rg-gallery {
 	position: relative;
-	height: 1000px;
+	height: 850px;
 	margin-right: 10px;
 	margin-left: 10px;
 }
@@ -791,6 +791,7 @@ opacity: 1;
 	width: 100%;
 	position: relative;
 	overflow: hidden;
+	margin-top: 8%;
 }
 .ei-slider-large li {
 	position: absolute;
