@@ -740,9 +740,10 @@ opacity: 1;
 #logoName {
 	position: relative;
 	right: 0%;
+	top: 0%;
 }
 .text1 {
-	color: white;
+	color: #0099ce;
 	position: relative;
 	right: 0%;
 	width: 700px;
@@ -755,11 +756,17 @@ opacity: 1;
 	width: 152px;
 	height: 152px;
 }
+#copyright {
+	float: left;
+}
 .contact-page {
 	position: absolute;
 	top: 25%;
 	height: 100%;
 	width: 100%;
+}
+.headerRight{
+	float: right;
 }
 .ei-slider{
 	position: relative;
