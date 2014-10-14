@@ -697,7 +697,8 @@ opacity: 1;
 
 #roundandshadow,
 #roundandshadow1,
-#roundandshadow2 {
+#roundandshadow2,
+#roundandshadow3 {
 	background: #fa96b5;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -716,7 +717,7 @@ opacity: 1;
 	margin-top: 25px;
 }
 #news {
-	height: 1500px;
+	height: 1650px;
 }
 #news-text0,
 #news-text1 {
@@ -729,7 +730,8 @@ opacity: 1;
 }
 
 #imag0,
-#imag1 {
+#imag1,
+#imag3 {
 	position: relative;
 }
 .headHome {
