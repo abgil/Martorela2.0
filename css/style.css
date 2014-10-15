@@ -737,10 +737,11 @@ opacity: 1;
 .headHome {
 	top: 0%;
 }
-#logoName {
+.logoName {
 	position: relative;
 	right: 0%;
 	top: 0%;
+	margin-top: 1%;
 }
 .text1 {
 	color: #0099ce;
@@ -748,6 +749,7 @@ opacity: 1;
 	right: 0%;
 	width: 700px;
 	float: right;
+	margin-top: 1%;
 }
 .wrapper {
 	top: 50%;
@@ -756,8 +758,9 @@ opacity: 1;
 	width: 152px;
 	height: 152px;
 }
-#copyright {
+.copyright {
 	float: left;
+	top: 3%;
 }
 .contact-page {
 	position: absolute;
