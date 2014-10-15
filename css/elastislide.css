@@ -20,6 +20,10 @@
 	display: none;
 	margin-top: 0px;
 	-webkit-padding-start: 0px;
+	-moz-padding-start: 0px;
+	-o-padding-start: 0px;
+	-ms-padding-start: 0px;
+	padding: 0px;
 }
 .es-carousel ul li {
 	height: 100%;
