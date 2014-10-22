@@ -788,6 +788,7 @@ opacity: 1;
 	color: #fff;
 	text-align: center;
 	line-height: 400px;
+	margin-top: 2%;
 }
 .ei-slider-large {
 	height: 100%;
@@ -812,6 +813,22 @@ opacity: 1;
 	right: 50%;
 	margin-right: 13%;
 	top: 30%;
+}
+#ei-title1 {
+	top: 30%;
+}
+#ei-title2 {
+	top: 30%;
+	right: 77%;
+}
+#ei-title3 {
+	top: 25%;
+}
+#ei-title4 {
+	top: 50%;
+}
+#ei-title5 {
+	top: 50%;
 }
 .ei-title h2, .ei-title h3 {
 	text-align: right;
