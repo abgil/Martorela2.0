@@ -12,7 +12,7 @@
 	$phone = @trim(stripslashes($_POST['phone']));
 
     $email_from = $email;
-    $email_to = 'bermejo.a@gmail.com';
+    $email_to = 'martorela@gmail.com';
 
     $body = 'Nombre: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Telefono: ' . $phone . "\n\n" . 'Asunto: ' . $subject . "\n\n" . 'Mensaje: ' . $message;
 
