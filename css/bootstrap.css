@@ -796,6 +796,9 @@ table td[class*="col-"], table th[class*="col-"] {
     .table-responsive>.table-bordered>tbody>tr:last-child>th, .table-responsive>.table-bordered>tfoot>tr:last-child>th, .table-responsive>.table-bordered>tbody>tr:last-child>td, .table-responsive>.table-bordered>tfoot>tr:last-child>td {
         border-bottom:0
     }
+    .form-control {
+		height: 10px !important;
+    }
 }
 fieldset {
     padding:0;
