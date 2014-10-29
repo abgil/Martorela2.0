@@ -718,6 +718,7 @@ opacity: 1;
 	-moz-box-shadow: 0 15px 10px #000000 );
 	box-shadow: 0 15px 10px #000000;
 	margin-top: 25px;
+	min-width: 500px;
 }
 #news {
 	height: 1800px;
@@ -846,29 +847,4 @@ opacity: 1;
 	line-height: 50px;
 	color: #821134;
 	text-align: right;
-}
-@media screen and (max-width: 830px) {
-	.ei-title {
-		position: absolute;
-		right: 0px;
-		margin-right: 0px;
-		width: 100%;
-		text-align: center;
-		top: auto;
-		bottom: 10px;
-		background: #fff;
-		background: rgba(255,255,255,0.9);
-		padding: 5px 0;
-	}
-	.ei-title h2, .ei-title h3 {
-		text-align: center;
-	}
-	.ei-title h2 {
-		font-size: 20px;
-		line-height: 24px;
-	}
-	.ei-title h3 {
-		font-size: 30px;
-		line-height: 40px;
-	}
 }
