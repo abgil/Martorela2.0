@@ -247,7 +247,7 @@ h1 span {
 }
 
 .st-panel {
-	background: #C4BFBF;
+	background: #BAB4B4;
 	overflow: hidden;
 }
 
@@ -720,7 +720,7 @@ opacity: 1;
 	margin-top: 25px;
 }
 #news {
-	height: 1650px;
+	height: 1800px;
 }
 #news-text0, #news-text1 {
 	color: white;
@@ -749,10 +749,11 @@ opacity: 1;
 	right: 0%;
 	width: 700px;
 	float: right;
-	margin-top: 1%;
+	margin-top: 2%;
 }
 .wrapper {
 	top: 50%;
+	margin-top: -5%;
 }
 #facelogo {
 	width: 152px;
@@ -815,7 +816,7 @@ opacity: 1;
 	top: 30%;
 }
 #ei-title1 {
-	top: 30%;
+	top: 10%;
 }
 #ei-title2 {
 	top: 30%;
