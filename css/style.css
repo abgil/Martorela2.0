@@ -771,7 +771,12 @@ opacity: 1;
 }
 .wrapper {
 	top: 50%;
-	margin-top: -5%;
+	margin-top: 5%;
+}
+@media screen and (max-height: 600px) {
+	.wrapper {
+		margin-top: -5%;
+	}
 }
 #facelogo {
 	width: 152px;
