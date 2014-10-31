@@ -176,12 +176,12 @@
 				var $img= $(this);
 					imgDim	= _self._getImageDim( $img.attr('src') );
 					
-				$img.css({
+			/*	$img.css({
 					width		: imgDim.width,
 					height		: imgDim.height,
 					marginLeft	: imgDim.left,
 					marginTop	: imgDim.top
-				});
+				});*/
 				
 			});
 		

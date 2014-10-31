@@ -884,6 +884,13 @@ opacity: 1;
 		font-size: 30px;
 		line-height: 30px;
 	}
+	#ei-title2, #ei-title3 {
+		top: 15%;
+	}
+	#ei-title4, #ei-title5 {
+		top: 30%;
+	}
+
 	#news {
 		height: 1250px;
 	}
