@@ -535,7 +535,6 @@ opacity: 1;
 
 	.st-panel p {
 		width: 90%;
-		left: 5%;
 		margin-top: 0;
 	}
 
@@ -638,6 +637,7 @@ opacity: 1;
 	margin-left: 0px;
 	margin-right: 20%;
 	color: black;
+	width: 80%;
 }
 .rg-caption p.ref {
 	color: white;
@@ -646,6 +646,7 @@ opacity: 1;
 	margin-left: 10%;
 	position: relative;
 	text-align: left;
+	width: 80%;
 }
 .rg-caption p.note {
 	margin: 10px 0px 0px 0px;
@@ -653,6 +654,7 @@ opacity: 1;
 	position: relative;
 	text-align: left;
 	color: black;
+	width: 80%;
 }
 .rg-view {
 	height: 30px;
