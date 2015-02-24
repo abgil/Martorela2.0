@@ -728,7 +728,7 @@ opacity: 1;
 	margin-top: 25px;
 }
 #news {
-	height: 2200px;
+	height: 2700px;
 }
 #news-text0, #news-text1 {
 	color: white;
@@ -739,7 +739,7 @@ opacity: 1;
 	font-size: 0.7em;
 }
 
-#imag0, #imag1, #imag3, #imag4 {
+#imag0, #imag1, #imag3, #imag4, #imag5 {
 	position: relative;
 }
 .headHome {
@@ -894,9 +894,9 @@ opacity: 1;
 	}
 
 	#news {
-		height: 1600px;
+		height: 1900px;
 	}
-	#roundandshadow, #roundandshadow1, #roundandshadow2, #roundandshadow3 {
+	#roundandshadow, #roundandshadow1, #roundandshadow2, #roundandshadow3, #roundandshadow4 {
 		font-size: 20px;
 	}
 }
